@@ -1,0 +1,19 @@
+09:16:18 **** Incremental Build of configuration Debug for project Ex2 ****
+make -j8 all 
+arm-none-eabi-gcc -o "Ex2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\truon\PROJECTS\STM32\LAB1\Ex2\Ex2\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ex2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ex2.elf
+ 
+arm-none-eabi-size   Ex2.elf 
+arm-none-eabi-objdump -h -S  Ex2.elf  > "Ex2.list"
+arm-none-eabi-objcopy  -O ihex  Ex2.elf  "Ex2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4740	     20	   1572	   6332	   18bc	Ex2.elf
+arm-none-eabi-objcopy  -O binary  Ex2.elf  "Ex2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Ex2.hex
+Finished building: Ex2.bin
+Finished building: Ex2.list
+ 
+ 
+ 
