@@ -1,0 +1,24 @@
+!SESSION 2023-10-01 22:52:46.999 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-01 22:53:19.172
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-01 22:53:19.185
+!MESSAGE Log4j2 initialized with config file C:\Users\truon\PROJECTS\STM32\LAB1\Ex6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-01 22:53:22.923
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-01 22:56:34.330
+!MESSAGE Indexed 'ex6' (17 sources, 78 headers) in 2.86 sec: 3,632 declarations; 13,137 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-01 22:58:58.989
+!MESSAGE Indexed 'ex6' (17 sources, 78 headers) in 0.834 sec: 3,638 declarations; 13,240 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-01 22:59:01.691
+!MESSAGE Indexed 'ex6' (17 sources, 78 headers) in 0.813 sec: 3,638 declarations; 13,240 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
